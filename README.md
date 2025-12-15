@@ -1,9 +1,9 @@
-# ✈️ Smart Travel Booking Platform
+# Smart Travel Booking Platform
 ### *Inter-Service Communication Using REST API, Feign Client, and WebClient*
 
 ---
 
-## 📘 Overview
+## Overview
 
 The **Smart Travel Booking Platform** is a microservice based system that demonstrates inter-service communication using **Spring Boot**, **Spring Cloud OpenFeign**, and **Spring WebClient**.
 
@@ -18,7 +18,7 @@ This project highlights how modern microservices communicate seamlessly without 
 
 ---
 
-## 🧱 Microservice Architecture
+## Microservice Architecture
 
 smart-travel-platform/
 
@@ -38,7 +38,7 @@ smart-travel-platform/
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 | Layer | Technology |
 |-------|-------------|
@@ -53,7 +53,7 @@ smart-travel-platform/
 
 ---
 
-## 🌐 Service Ports
+## Service Ports
 
 | Service | Port | Description |
 |----------|------|-------------|
@@ -66,9 +66,9 @@ smart-travel-platform/
 
 ---
 
-## 🧩 Microservice Communication Flow
+## Microservice Communication Flow
 
-### 🔗 Communication Rules
+### Communication Rules
 | From | To | Method | Technology |
 |------|----|---------|------------|
 | Booking Service | User Service | REST | WebClient |
@@ -78,11 +78,11 @@ smart-travel-platform/
 | Booking Service | Notification Service | REST | WebClient |
 | Payment Service | Booking Service | REST | WebClient |
 
-✅ No deprecated technologies like `RestTemplate` were used.
+No deprecated technologies like `RestTemplate` were used.
 
 ---
 
-## 🧭 Architecture Diagram
+## Architecture Diagram
 
 ```mermaid
 flowchart TD
@@ -107,7 +107,7 @@ flowchart TD
 - Notification Service informs the user after confirmation.
 
 
-## 🧠 Booking Flow Summary
+## Booking Flow Summary
 
 ###  Step-by-Step Process
 
@@ -171,7 +171,7 @@ flowchart TD
       
 ---
 
-  # 🔍 Communication Flow Diagram
+  # Communication Flow Diagram
 
 ```mermaid
 sequenceDiagram
@@ -197,8 +197,8 @@ sequenceDiagram
 ```
 ---
 
-# 🧾 Error Handling and Validation
-## ✅ Implemented Features
+# Error Handling and Validation
+## Implemented Features
 
    - @ControllerAdvice with GlobalExceptionHandler
 
@@ -216,7 +216,7 @@ sequenceDiagram
              "path": "/api/users/99"
             }
 
-## 💾 Database Verification (H2 Console)
+## Database Verification (H2 Console)
 
 Each service uses an in-memory H2 database.
 
@@ -239,7 +239,7 @@ Example Query
 | 1  | 1       | 1         | 1        | 2025-12-20  | 700.0      | CONFIRMED |
 
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 A complete Postman Collection (Smart-Travel-Platform.postman_collection.json) is included with the following tests:
 
@@ -254,7 +254,7 @@ A complete Postman Collection (Smart-Travel-Platform.postman_collection.json) is
 | Notification | Send Notification | POST   | `/api/notifications` |
 
 
-## 🧭 How to Run Locally
+## How to Run Locally
 
   - Install Java 17 and Maven
 
@@ -276,7 +276,7 @@ A complete Postman Collection (Smart-Travel-Platform.postman_collection.json) is
 
 
 
-## 🏁 Submission Package
+## Submission Package
 
 | File                                            | Description                                                                  |
 | ----------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -285,7 +285,7 @@ A complete Postman Collection (Smart-Travel-Platform.postman_collection.json) is
 | `screenshots/`                                  | Evidence of successful API calls                                             |
 | GitHub Repo                                     | [smart-travel-platform ](https://github.com/Dilkyy/smart-travel-platform) |
 
-## 🏆 Credits
+## Credits
 
 Developed by ,
 
